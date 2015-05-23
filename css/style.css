@@ -1,0 +1,92 @@
+/* Palette */
+
+$text: #222;
+
+$light-gray: #aaa;
+$dark-gray: #444;
+
+$primary: #32acde;
+$primary-dark: #308cb1;
+$primary-light: #60afde;
+
+
+body {
+  background-color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+  color: $text;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  line-height: 2.6rem;
+  margin-bottom: 1.8rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1rem;
+    color: $light-gray;
+  }
+
+p {
+  font: 1rem/1.8rem 'Open Sans', sans-serif;
+}
+
+.quiet {
+  color: $light-gray;
+  }
+  .loud {
+    color: $primary;
+  }
+
+a {
+  color: $primary;
+  }
+  a:hover {
+    color: $primary;
+  }
+
+
+
+/*******************/
+/* custom elements */
+/*******************/
+
+header {
+  /*background-color: $primary;*/
+  background-color: #333;
+  }
+  header h1 {
+    padding: 28px 0;
+    color: #fafafa;
+    margin: 0;
+  }
+  header .logo {
+    height: 100px;
+    padding: 12px 0;
+  }
+
+.content {
+  padding: 40px 0;
+}
+
+.sidebar {
+  border-right: 1px solid #DDD;
+  }
+  .sidebar h4 {
+  line-height: 1rem;
+  color: $text;
+}
+
+.browsehappy {
+  background-color: #faa;
+  color: $text;
+}

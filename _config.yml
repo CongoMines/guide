@@ -1,0 +1,14 @@
+# Site settings
+title: CongoMines
+email: webmaster@congomines.org
+description: > # CongoMines is an online document library of materials
+               relating to the mining sector in the Democratic Republic of the Congo.
+               The project is dedicated to increasing transparency and
+               extractive industry governance.  It is maintained by the Carter Center.
+baseurl: "/guide" # the subpath of your site, e.g. /blog/
+url: "http://congomines.org" # the base hostname & protocol for your site
+twitter_username: CongoMines
+github_username:  CongoMines
+
+# Build settings
+markdown: kramdown
