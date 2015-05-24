@@ -6,7 +6,8 @@ description: > # CongoMines is an online document library of materials
                The project is dedicated to increasing transparency and
                extractive industry governance.  It is maintained by the Carter Center.
 baseurl: "/guide" # the subpath of your site, e.g. /blog/
-url: "http://congomines.org" # the base hostname & protocol for your site
+url: http://188.166.93.154/ 
+# url: "http://congomines.org" # switch when deployed to congomines.org domain
 twitter_username: CongoMines
 github_username:  CongoMines
 
