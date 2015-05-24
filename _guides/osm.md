@@ -1,5 +1,5 @@
 ---
 layout: main
-title: Mapbox Studio
+title: OpenStreetMap
 category: cartography
 ---

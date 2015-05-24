@@ -1,3 +1,5 @@
+---
+---
 /* Palette */
 
 $text: #222;
@@ -51,7 +53,7 @@ a {
   color: $primary;
   }
   a:hover {
-    color: $primary;
+    color: $primary-dark;
   }
 
 
@@ -82,9 +84,21 @@ header {
   border-right: 1px solid #DDD;
   }
   .sidebar h4 {
-  line-height: 1rem;
-  color: $text;
-}
+    line-height: 1rem;
+    color: $text;
+    margin: 0;
+    padding: 0.4375rem 0.875rem;
+  }
+  .sidebar nav li.header {
+    color: $light-gray;
+    padding: 0.4375rem 0.875rem;
+  }
+  .sidebar nav ul.side-nav li a {
+    color: $primary;
+  }
+  .sidebar nav ul.side-nav li a:hover {
+    color: $primary-dark;
+  }
 
 .browsehappy {
   background-color: #faa;

@@ -1,6 +1,7 @@
 ---
 layout: main
 title: Data Input
+category: data
 ---
 
 ## CongoMines Admin Data Input Page
