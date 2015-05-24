@@ -10,5 +10,9 @@ url: "http://congomines.org" # the base hostname & protocol for your site
 twitter_username: CongoMines
 github_username:  CongoMines
 
+collections:
+  guides:
+    output: true
+
 # Build settings
 markdown: kramdown
