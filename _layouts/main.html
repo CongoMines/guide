@@ -29,25 +29,25 @@
               <ul class="side-nav">
                 <li class="header"><strong>Data</strong></li>
                 {% for guide in site.guides %}{% if guide.category == 'data' %}
-                  <li><a {% if page.title == guide.title %}class="active"{% endif %} href="{{guide.url}}">{{guide.title}}</a></li>
+                  <li><a {% if page.title == guide.title %}class="active"{% endif %} href="{{site.baseurl}}{{guide.url}}">{{guide.title}}</a></li>
                 {% endif %}{% endfor %}
                 <li class="divider"></li>
 
                 <li class="header"><strong>Cartography</strong></li>
                 {% for guide in site.guides %}{% if guide.category == 'cartography' %}
-                  <li><a {% if page.title == guide.title %}class="active"{% endif %} href="{{guide.url}}">{{guide.title}}</a></li>
+                  <li><a {% if page.title == guide.title %}class="active"{% endif %} href="{{site.baseurl}}{{guide.url}}">{{guide.title}}</a></li>
                 {% endif %}{% endfor %}
                 <li class="divider"></li>
 
                 <li class="header"><strong>Imagery</strong></li>
                 {% for guide in site.guides %}{% if guide.category == 'imagery' %}
-                  <li><a {% if page.title == guide.title %}class="active"{% endif %} href="{{guide.url}}">{{guide.title}}</a></li>
+                  <li><a {% if page.title == guide.title %}class="active"{% endif %} href="{{site.baseurl}}{{guide.url}}">{{guide.title}}</a></li>
                 {% endif %}{% endfor %}
                 <li class="divider"></li>
 
                 <li class="header"><strong>Mobile</strong></li>
                 {% for guide in site.guides %}{% if guide.category == 'mobile' %}
-                  <li><a {% if page.title == guide.title %}class="active"{% endif %} href="{{guide.url}}">{{guide.title}}</a></li>
+                  <li><a {% if page.title == guide.title %}class="active"{% endif %} href="{{site.baseurl}}{{guide.url}}">{{guide.title}}</a></li>
                 {% endif %}{% endfor %}
                 
               </ul>
