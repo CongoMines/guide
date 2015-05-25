@@ -83,21 +83,33 @@ header {
 .sidebar {
   border-right: 1px solid #DDD;
   }
-  .sidebar h4 {
+  .sidebar div {
     line-height: 1rem;
     color: $text;
     margin: 0;
     padding: 0.4375rem 0.875rem;
   }
+  .sidebar nav li {
+    margin: 0;
+  }
   .sidebar nav li.header {
     color: $light-gray;
     padding: 0.4375rem 0.875rem;
   }
+  .sidebar nav li.divider {
+    margin: 8px 0;
+  }
   .sidebar nav ul.side-nav li a {
     color: $primary;
   }
-  .sidebar nav ul.side-nav li a:hover {
+  .sidebar nav ul.side-nav li a:hover,
+  .sidebar nav ul.side-nav li a.active {
     color: $primary-dark;
+    background-color: rgba(0,0,0,0.025);
+  }
+  .sidebar nav ul.side-nav li a:active {
+    color: $primary;
+    background-color: transparent;
   }
 
 .browsehappy {
